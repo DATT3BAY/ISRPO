@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="Авторизация" Height="420" Width="300" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <TextBox Name ="Login" HorizontalAlignment="Left" Height="18" Margin="84,152,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox Name ="Password" HorizontalAlignment="Left" Margin="80,188,0,0" VerticalAlignment="Top" Width="129"/>
+
     </Grid>
 </Window>
