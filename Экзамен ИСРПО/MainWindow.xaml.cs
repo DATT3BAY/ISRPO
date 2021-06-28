@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace Экзамен_ИСРПО
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
         public MainWindow()
