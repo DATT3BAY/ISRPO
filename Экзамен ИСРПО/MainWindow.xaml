@@ -7,10 +7,11 @@
         mc:Ignorable="d"
         Title="Авторизация" Height="420" Width="300" WindowStartupLocation="CenterScreen">
     <Grid>
-        <TextBox Name ="Login" HorizontalAlignment="Left" Height="18" Margin="80,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <PasswordBox Name ="Password" HorizontalAlignment="Left" Margin="80,180,0,0" VerticalAlignment="Top" Width="129"/>
-        <Label Content="Пройдите авторизацию! " HorizontalAlignment="Left" Margin="68,36,0,0" VerticalAlignment="Top" Height="30" Width="160"/>
-        <Label Content="Логин:" HorizontalAlignment="Left" Margin="117,89,0,0" VerticalAlignment="Top" Height="24" Width="46"/>
-        <Label Content="Пароль:" HorizontalAlignment="Left" Margin="109,151,0,0" VerticalAlignment="Top" Height="29" Width="54"/>
+        <TextBox Name ="Login" HorizontalAlignment="Left" Height="18" Margin="86,118,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="129"/>
+        <PasswordBox Name ="Password" HorizontalAlignment="Left" Margin="86,180,0,0" VerticalAlignment="Top" Width="129"/>
+        <Label Content="Пройдите авторизацию! " HorizontalAlignment="Left" Margin="75,34,0,0" VerticalAlignment="Top" Height="30" Width="160"/>
+        <Label Content="Логин:" HorizontalAlignment="Left" Margin="124,89,0,0" VerticalAlignment="Top" Height="24" Width="46"/>
+        <Label Content="Пароль:" HorizontalAlignment="Left" Margin="124,151,0,0" VerticalAlignment="Top" Height="29" Width="54"/>
+        <Button IsDefault="True" Content="Войти" HorizontalAlignment="Left" Margin="109,219,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
